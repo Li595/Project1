@@ -149,6 +149,34 @@
             "value": "sPlayer_slash",
             "varName": "spr_slash",
             "varType": 0
+        },
+        {
+            "id": "383fd2d4-fdd5-451c-875e-9fd43d747792",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sPlayer_idle",
+            "varName": "spr_dead",
+            "varType": 0
+        },
+        {
+            "id": "ddfc16c0-f53a-4069-a804-df949b7f4515",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ps.IDLE",
+            "varName": "state",
+            "varType": 1
         }
     ],
     "solid": false,
