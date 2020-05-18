@@ -124,7 +124,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "random_range(2, 5)",
+            "value": "random_range(5,7)",
             "varName": "dashsp",
             "varType": 0
         },

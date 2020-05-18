@@ -1,7 +1,14 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 2F953664
+randomize();
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 12B7783A
-/// @DnDArgument : "code" "var layer_id = layer_get_id("Background_sun");$(13_10)$(13_10)layer_x(layer_id, camera_get_view_x(view_camera[0]));"
+/// @DnDArgument : "code" "randomize()$(13_10)$(13_10)var layer_id = layer_get_id("Background_sun");$(13_10)$(13_10)layer_x(layer_id, camera_get_view_x(view_camera[0]));"
+randomize()
+
 var layer_id = layer_get_id("Background_sun");
 
 layer_x(layer_id, camera_get_view_x(view_camera[0]));
@@ -10,12 +17,21 @@ layer_x(layer_id, camera_get_view_x(view_camera[0]));
 /// @DnDVersion : 1.1
 /// @DnDHash : 127331F2
 /// @DnDArgument : "script" "scr_spawn_leaf"
+/// @DnDSaveInfo : "script" "afa0c12d-8933-434c-8caf-500d22983539"
 script_execute(scr_spawn_leaf);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 2D22722D
+/// @DnDArgument : "script" "scr_spawn_enemy1"
+/// @DnDSaveInfo : "script" "43581758-f0a9-43a9-aba5-f3a7fd30da7f"
+script_execute(scr_spawn_enemy1);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 0912F7BF
 /// @DnDArgument : "script" "scr_spawn_enemy"
+/// @DnDSaveInfo : "script" "7324491f-033c-4d28-a094-8bb03752d369"
 script_execute(scr_spawn_enemy);
 
 /// @DnDAction : YoYo Games.Common.If_Variable

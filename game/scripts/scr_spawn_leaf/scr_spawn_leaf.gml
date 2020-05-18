@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 437887BF
+randomize();
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 680DAFA0
@@ -18,11 +23,11 @@ if(spawn_leaf_timer <= 0)
 	/// @DnDHash : 36F70DC4
 	/// @DnDParent : 680DAFA0
 	/// @DnDArgument : "xpos" "random_range(0, room_width)"
-	/// @DnDArgument : "ypos" "-16"
+	/// @DnDArgument : "ypos" "-1"
 	/// @DnDArgument : "objectid" "oLeaf"
 	/// @DnDArgument : "layer" ""Leafs""
 	/// @DnDSaveInfo : "objectid" "fce6a8cf-09d5-499d-8348-b3110d755aef"
-	instance_create_layer(random_range(0, room_width), -16, "Leafs", oLeaf);
+	instance_create_layer(random_range(0, room_width), -1, "Leafs", oLeaf);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
