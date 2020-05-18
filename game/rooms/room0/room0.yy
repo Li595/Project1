@@ -226,8 +226,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Player",
-            "id": "44f70319-472b-440e-9f23-e814b1a8befb",
+            "name": "Enemy1",
+            "id": "cf4ef18a-cb37-4eb7-877c-3d3aeab2cdf8",
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
@@ -238,7 +238,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_35ACD8AF","id": "78bffbee-d78c-4c18-9451-0bc107df3621","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35ACD8AF","objId": "842396e1-feca-41aa-a961-47e4b8bc5783","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 544,"y": 288}
+
             ],
             "layers": [
 
@@ -252,8 +252,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Enemy1",
-            "id": "cf4ef18a-cb37-4eb7-877c-3d3aeab2cdf8",
+            "name": "Player",
+            "id": "44f70319-472b-440e-9f23-e814b1a8befb",
             "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
@@ -264,7 +264,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_35ACD8AF","id": "78bffbee-d78c-4c18-9451-0bc107df3621","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35ACD8AF","objId": "842396e1-feca-41aa-a961-47e4b8bc5783","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 544,"y": 288}
             ],
             "layers": [
 

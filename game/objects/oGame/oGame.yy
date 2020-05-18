@@ -142,7 +142,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "random_range(50,100)",
             "varName": "spawn_enemy_initial",
             "varType": 0
         },
@@ -158,6 +158,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "spawn_enemy_timer",
+            "varType": 0
+        },
+        {
+            "id": "648bca3d-37de-4186-a254-ba21700d43b0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "random_range(50,100)",
+            "varName": "spawn_enemy_initial1",
             "varType": 0
         }
     ],
