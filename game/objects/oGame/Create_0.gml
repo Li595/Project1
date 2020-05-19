@@ -15,3 +15,11 @@ enum es {
 	SLASH,
 	DEAD
 }
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 351F6E0E
+/// @DnDArgument : "soundid" "Barge"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "23b7505b-5ad7-4379-a402-c7aefd83c09d"
+audio_play_sound(Barge, 0, 1);

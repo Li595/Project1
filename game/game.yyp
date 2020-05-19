@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "06c503cc-67bc-4a10-a648-82ac13c9af15",
+            "Value": {
+                "id": "3bda9d35-f527-437a-91f4-4327fa93e9f5",
+                "resourcePath": "sprites\\sYama\\sYama.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "080bec58-7063-40b6-9dc0-0b967fdf011e",
+            "Value": {
+                "id": "1876c46a-e923-4f5f-b449-22cff540fa7f",
+                "resourcePath": "sounds\\Woosh\\Woosh.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "17d9e633-3237-4c8f-8679-802b3524c1b6",
             "Value": {
                 "id": "08f11179-a43c-46aa-a697-a80b29183931",
@@ -100,6 +116,14 @@
                 "id": "2d342d47-cb38-4267-820a-fa48b8089bff",
                 "resourcePath": "sprites\\sBloodR\\sBloodR.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23b7505b-5ad7-4379-a402-c7aefd83c09d",
+            "Value": {
+                "id": "1902781e-6250-4507-9c4c-b09d6c99986f",
+                "resourcePath": "sounds\\Barge\\Barge.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "76430563-82ae-49ad-bc18-42aa829b44ba",
+            "Value": {
+                "id": "0be1226b-0e6c-4835-92c4-b407cd6a7d94",
+                "resourcePath": "sprites\\sFuji\\sFuji.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "779da76a-f3ec-476c-8f8a-aa80a42d88f5",
             "Value": {
                 "id": "de147933-a4db-47cd-acc6-3cb0281f787f",
@@ -292,6 +324,14 @@
                 "id": "38ecd3da-a339-405a-bc07-3549d6c7946f",
                 "resourcePath": "views\\77b97dd6-3179-40dc-bc34-d06d37b54842.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "796e70c4-8433-45f8-96b4-c147e5f9eede",
+            "Value": {
+                "id": "8851ffe3-5968-4af0-89c0-68756ba5ab3f",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +383,14 @@
             }
         },
         {
+            "Key": "927cb9df-55a8-49ca-b1cc-fd9bc7e50565",
+            "Value": {
+                "id": "d22a99e4-76c5-4865-b97d-71167e2df7ad",
+                "resourcePath": "objects\\oFuji\\oFuji.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9283ce97-e8a5-4801-a720-d167d925199a",
             "Value": {
                 "id": "db50109b-9866-4f9a-9c4f-1a99150e5e28",
@@ -363,6 +411,14 @@
             "Value": {
                 "id": "6317c81c-75c9-4636-9f42-e9ba5a74f923",
                 "resourcePath": "sprites\\sBloodL\\sBloodL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a21a6ffd-669e-4211-8d3d-47627e528d86",
+            "Value": {
+                "id": "b573a9fb-4b28-4013-b0b7-bf1515ab1fe8",
+                "resourcePath": "sprites\\sTransition\\sTransition.yy",
                 "resourceType": "GMSprite"
             }
         },
