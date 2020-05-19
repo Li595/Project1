@@ -48,7 +48,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "6a007f90-484e-4e7d-9100-2ad7df359033",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -114,7 +114,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
+            "value": "5",
             "varName": "spawn_leaf_initial",
             "varType": 0
         },
@@ -170,7 +170,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "random_range(50,100)",
+            "value": "random_range(50, 100)",
             "varName": "spawn_enemy_initial1",
             "varType": 0
         }

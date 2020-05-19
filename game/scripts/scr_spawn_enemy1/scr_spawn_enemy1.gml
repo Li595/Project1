@@ -23,12 +23,12 @@ if(spawn_enemy_timer <= 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 406D2A4F
 	/// @DnDParent : 3D0BBE27
-	/// @DnDArgument : "xpos" "room_width +32"
+	/// @DnDArgument : "xpos" "camera_get_view_x(view_camera[0]) + 704"
 	/// @DnDArgument : "ypos" "room_height - 120"
 	/// @DnDArgument : "objectid" "oEnemy1"
 	/// @DnDArgument : "layer" ""Enemy1""
 	/// @DnDSaveInfo : "objectid" "7e89f5a7-1227-4906-a47c-bd448e0714b3"
-	instance_create_layer(room_width +32, room_height - 120, "Enemy1", oEnemy1);
+	instance_create_layer(camera_get_view_x(view_camera[0]) + 704, room_height - 120, "Enemy1", oEnemy1);
 }
 
 /// @DnDAction : YoYo Games.Common.Else

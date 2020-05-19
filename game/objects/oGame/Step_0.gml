@@ -6,12 +6,20 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 12B7783A
-/// @DnDArgument : "code" "randomize()$(13_10)$(13_10)var layer_id = layer_get_id("Background_sun");$(13_10)$(13_10)layer_x(layer_id, camera_get_view_x(view_camera[0]));"
+/// @DnDArgument : "code" "randomize()$(13_10)$(13_10)var layer_id = layer_get_id("Background_sun");$(13_10)$(13_10)layer_x(layer_id, camera_get_view_x(view_camera[0]));$(13_10)$(13_10)var layer_id1 = layer_get_id("Backgrounds_2");$(13_10)$(13_10)layer_x(layer_id1, camera_get_view_x(view_camera[0]));$(13_10)$(13_10)var layer_id2 = layer_get_id("Backgrounds_3");$(13_10)$(13_10)layer_x(layer_id2, camera_get_view_x(view_camera[0]));"
 randomize()
 
 var layer_id = layer_get_id("Background_sun");
 
 layer_x(layer_id, camera_get_view_x(view_camera[0]));
+
+var layer_id1 = layer_get_id("Backgrounds_2");
+
+layer_x(layer_id1, camera_get_view_x(view_camera[0]));
+
+var layer_id2 = layer_get_id("Backgrounds_3");
+
+layer_x(layer_id2, camera_get_view_x(view_camera[0]));
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
